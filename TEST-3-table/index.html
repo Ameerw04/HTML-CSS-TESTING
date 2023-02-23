@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="5"><!--(border="الخمل تبع الجدول") to have borders-->
+        <caption>Programma woensdag 20 juli 2022</caption><!--the title for the table -->
+        <tr><!--<tr>...</tr> is for represents a row of cells in a table -->
+          <th>Uur</th><!-- <th>.....</th> for the first column (represents a header cell in a table)-->         
+          <th>Band</th>          
+          <th>Genre</th>
+        </tr>
+
+        <tr>
+          <td>20:00</td><!-- <td>.....</td> for the seconde or next column(represents a data cell in a table)-->
+          <td>Cloon</td>
+          <td>Complex, Freaky, Rock&Rollah</td>
+        </tr>
+        <tr>
+          <td>21:30</td>
+          <td>Marvelas</td>
+          <td>Jazzy funky hiphop</td>
+        </tr>
+        <tr>
+          <td>23:00</td>
+          <td>Stash</td>
+          <td>Rock</td>
+        </tr>
+        <tr>
+          <td>01:00</td>
+          <td>Moiano</td>
+          <td>Souljazz</td>
+        </tr>
+      </table>
+
+      <table border="5">
+        <caption>Programma Gentse feesten 2005</caption>
+        <tr>
+          <td rowspan="2"></td><!-- rowspan="2" to merge ("this number of rows") in one row -->
+          <td colspan="2">Woensdag 20 juli</td><!-- colspan="2" to merge ("this number of columns ") in one column -->
+          <td colspan="2">Donderdag 21 juli</td>
+        </tr>
+        <tr>
+          <th>Uur</th>
+          <th>Groep</th>
+          <th>Uur</th>
+          <th>Groep</th>
+        </tr>
+        <tr>
+          <td rowspan="3">Vroege avond</td>
+          <td>19:30</td>
+          <td>Cloon</td>
+          <td>19:30</td>
+          <td>Sadko</td>
+        </tr>
+        <tr>
+          <td></td><!--to have an empty box-->
+          <td></td>
+          <td>20:30</td>
+          <td>Veres</td>
+        </tr>
+        <tr>
+          <td>21:30</td>
+          <td>Marvelas</td>
+          <td>21:30</td>
+          <td>The Kolinda Project</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Late avond</td>
+          <td>23:00</td>
+          <td>Stash</td>
+          <td>23:00</td>
+          <td>Warsaw Village Band</td>
+        </tr>
+        <tr>
+          <td>01:00</td>
+          <td>Moiano</td>
+          <td>01:00</td>
+          <td>La Caravane Elektro</td>
+        </tr>
+      </table>
+</body>
+</html>
